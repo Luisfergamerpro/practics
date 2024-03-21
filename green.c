@@ -8,7 +8,10 @@ int main(){
     printf("\nIs the temperature in (F) or (*C)");
     scanf("%c", &unit);
 
+// -- argument to not disting mayus and minuscle --
     unit = toupper(unit);
+
+// 
     if(unit == 'F'){
         printf("\nEnter the temperature\n");
          scanf("%f", &temp);
