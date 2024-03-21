@@ -12,6 +12,7 @@ int main(){
     unit = toupper(unit);
 
 // conditionals with if and else
+// sudo
     if(unit == 'F'){
         printf("\nEnter the temperature\n");
          scanf("%f", &temp);
