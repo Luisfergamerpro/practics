@@ -11,7 +11,7 @@ int main(){
 // -- argument to not disting mayus and minuscle --
     unit = toupper(unit);
 
-// 
+// conditionals with if and else
     if(unit == 'F'){
         printf("\nEnter the temperature\n");
          scanf("%f", &temp);
