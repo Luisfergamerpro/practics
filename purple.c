@@ -99,3 +99,5 @@ int main(int argc, char *argv[]){
     }
     return EXIT_SUCCESS;
 }
+// para compilar: 
+// gcc name.c -lm -lncurses -lncursesw
